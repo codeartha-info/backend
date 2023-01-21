@@ -1,0 +1,16 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-cf6166la499d72thpbt0-a.oregon-postgres.render.com:5432/codeartha_technologies
+    username: codeartha_technologies_user
+    password: auYqfXVALzDZb6ZsFGSbs3T2RNV8Niof
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
